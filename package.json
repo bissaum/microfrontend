@@ -1,0 +1,9 @@
+{
+  "name": "microfrontend",
+  "version": "0.0.1",
+  "description": "Partial jQuery for Microfrontend",
+  "main": "index.js",
+  "repository": "https://github.com/bissaum/microfrontend.git",
+  "author": "Bissaum <bissaum@gmail.com>",
+  "license": "MIT"
+}
