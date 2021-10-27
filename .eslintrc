@@ -1,0 +1,54 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "standard",
+    "standard-react",
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "prettier/standard",
+    "prettier/react",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "next/core-web-vitals"
+  ],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "legacyDecorators": true,
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "16"
+    }
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "no-console": "off",
+    "no-debugger": "error",
+    "no-var": "error",
+    "no-return-await": "error",
+    "quotes": ["warn", "single"],
+    "default-case": "off",
+    "no-eval": "error",
+    "vars-on-top": "warn",
+    "no-trailing-spaces": "warn",
+    "no-useless-escape": "off",
+    "no-case-declarations": "off",
+    "semi": "error",
+    "arrow-body-style": ["warn", "as-needed"],
+    "quote-props": ["error", "as-needed"],
+    "prettier/prettier": "error",
+    "space-before-function-paren": "off",
+    "react/prop-types": "error",
+    "react/jsx-handler-names": "error",
+    "react/jsx-fragments": "off",
+    "react/no-unused-prop-types": "off",
+    "import/export": "error"
+  }
+}

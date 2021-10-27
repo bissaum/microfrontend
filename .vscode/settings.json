@@ -1,7 +1,32 @@
 {
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#ffdd33",
+    "activityBar.activeBorder": "#009f85",
+    "activityBar.background": "#ffdd33",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#009f85",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBar.background": "#ffd400",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#ccaa00",
+    "titleBar.activeBackground": "#ffd400",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#ffd40099",
+    "titleBar.inactiveForeground": "#15202b99",
+    "editorGroup.border": "#ffdd33",
+    "panel.border": "#ffdd33",
+    "sash.hoverBorder": "#ffdd33",
+    "sideBar.border": "#ffdd33",
+    "statusBarItem.remoteBackground": "#ffd400",
+    "statusBarItem.remoteForeground": "#15202b"
+  },
+  "peacock.color": "#ffd400",
+  "cSpell.language": "en,pt,pt_BR",
   "cSpell.words": [
     "Bissaum",
     "browserslist",
-    "microfrontend"
+    "microfrontend",
+    "Parens"
   ]
 }
