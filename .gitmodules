@@ -1,18 +1,23 @@
-[submodule "microfrontend-vue"]
-	path = microfrontend-vue
+[submodule "packages/microfrontend-vue"]
+	path = packages/microfrontend-vue
 	url = https://github.com/bissaum/microfrontend-vue.git
-[submodule "microfrontend-angular"]
-	path = microfrontend-angular
+
+[submodule "packages/microfrontend-angular"]
+	path = packages/microfrontend-angular
 	url = https://github.com/bissaum/microfrontend-angular.git
-[submodule "microfrontend-react"]
-	path = microfrontend-react
+
+[submodule "packages/microfrontend-react"]
+	path = packages/microfrontend-react
 	url = https://github.com/bissaum/microfrontend-react.git
-[submodule "microfrontend-js"]
-	path = microfrontend-js
+
+[submodule "packages/microfrontend-js"]
+	path = packages/microfrontend-js
 	url = https://github.com/bissaum/microfrontend-js.git
-[submodule "microfrontend-next"]
-	path = microfrontend-next
+
+[submodule "packages/microfrontend-next"]
+	path = packages/microfrontend-next
 	url = https://github.com/bissaum/microfrontend-next.git
-[submodule "microfrontend-jquery"]
-	path = microfrontend-jquery
+
+[submodule "packages/microfrontend-jquery"]
+	path = packages/microfrontend-jquery
 	url = https://github.com/bissaum/microfrontend-jquery.git

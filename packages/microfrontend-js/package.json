@@ -1,0 +1,16 @@
+{
+  "name": "microfrontend-js",
+  "version": "0.0.1",
+  "description": "Partial Javascript for Microfrontend",
+  "main": "index.js",
+  "repository": "https://github.com/bissaum/microfrontend-js.git",
+  "author": "Bissaum <bissaum@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "http-server": "^13.0.2"
+  },
+  "scripts": {
+    "start": "http-server -p 3003"
+  }
+}

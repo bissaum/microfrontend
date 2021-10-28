@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "@types/react": "17.0.30",
     "eslint": "8.0.1",
     "eslint-config-next": "11.1.2",
+    "lerna": "^4.0.0",
     "typescript": "4.4.4"
   }
 }
