@@ -27,8 +27,10 @@
     </style>
     <script>
       window.onload = () => {
-        document.querySelector('#sample').innerHTML =
-          'Javascript is compatible this browser!'
+        document.querySelector('#inputJS').onkeyup = (e) => {
+          const valor = e.target.value
+          document.querySelector('#hintJS').innerHTML = valor
+        }
       }
     </script>
   </head>

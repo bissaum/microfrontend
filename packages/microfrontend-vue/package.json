@@ -7,7 +7,8 @@
   "author": "Bissaum <bissaum@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "vue-cli-service serve --port 3006",
+    "lerna": "source .env && vue-cli-service serve --port 3006",
+    "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04c7478a.chunk.css",
+    "main.js": "/static/js/main.c7007c3a.chunk.js",
+    "main.js.map": "/static/js/main.c7007c3a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.983fb261.js",
+    "runtime-main.js.map": "/static/js/runtime-main.983fb261.js.map",
+    "static/js/2.0917a198.chunk.js": "/static/js/2.0917a198.chunk.js",
+    "static/js/2.0917a198.chunk.js.map": "/static/js/2.0917a198.chunk.js.map",
+    "static/js/3.b49511dc.chunk.js": "/static/js/3.b49511dc.chunk.js",
+    "static/js/3.b49511dc.chunk.js.map": "/static/js/3.b49511dc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.04c7478a.chunk.css.map": "/static/css/main.04c7478a.chunk.css.map",
+    "static/js/2.0917a198.chunk.js.LICENSE.txt": "/static/js/2.0917a198.chunk.js.LICENSE.txt",
+    "static/media/angular.a75841fb.svg": "/static/media/angular.a75841fb.svg",
+    "static/media/jquery.a4fd1a13.svg": "/static/media/jquery.a4fd1a13.svg",
+    "static/media/js.b1de3456.svg": "/static/media/js.b1de3456.svg",
+    "static/media/nextjs.ed338756.svg": "/static/media/nextjs.ed338756.svg",
+    "static/media/react.eb1e17c2.svg": "/static/media/react.eb1e17c2.svg",
+    "static/media/vue.92ee0914.svg": "/static/media/vue.92ee0914.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.983fb261.js",
+    "static/js/2.0917a198.chunk.js",
+    "static/css/main.04c7478a.chunk.css",
+    "static/js/main.c7007c3a.chunk.js"
+  ]
+}

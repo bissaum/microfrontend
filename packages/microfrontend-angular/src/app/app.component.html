@@ -9,10 +9,11 @@
         id="inputAngular"
         class="form-control"
         aria-describedby="hintAngular"
+        (keyup)="onKey($event)"
       />
     </div>
     <div class="col-auto">
-      <span id="hintAngular" class="form-text"> Angular </span>
+      <span id="hintAngular" class="form-text"> {{ valor }} </span>
     </div>
   </div>
 

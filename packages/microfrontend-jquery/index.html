@@ -28,7 +28,10 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script>
       $(document).ready(() => {
-        $('#sample').text('jQuery is running in this browser!')
+        $('#inputJQuery').keyup((e) => {
+          const valor = $(e.target).val()
+          $('#hintJQuery').text(valor)
+        })
       })
     </script>
   </head>

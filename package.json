@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev && lerna run lerna",
     "build": "next build",
     "start": "next start -p 3000",
     "lint": "next lint"
@@ -16,7 +16,8 @@
   "dependencies": {
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "microfrontend-angular": "link:./packages/microfrontend-angular"
   },
   "devDependencies": {
     "@types/react": "17.0.30",

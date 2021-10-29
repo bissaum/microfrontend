@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import "./App.css";
 
 import angularSvg from "./assets/angular.svg";
@@ -8,6 +9,8 @@ import reactSvg from "./assets/react.svg";
 import vueSvg from "./assets/vue.svg";
 
 function App() {
+  const [value, setValue] = useState('');
+
   return (
     <div className="container">
       <div className="row align-items-center justify-content-center">
@@ -88,10 +91,11 @@ function App() {
             id="inputReact"
             className="form-control"
             aria-describedby="hintReact"
+            onChange={(e) => setValue(e.target.value)}
           />
         </div>
         <div className="col-auto">
-          <span id="hintReact" className="form-text"> React </span>
+          <span id="hintReact" className="form-text"> {value} </span>
         </div>
       </div>
 

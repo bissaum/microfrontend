@@ -11,6 +11,7 @@
     "http-server": "^13.0.2"
   },
   "scripts": {
-    "start": "http-server -p 3003"
+    "lerna": "http-server -p 3003",
+    "start": "http-server"
   }
 }

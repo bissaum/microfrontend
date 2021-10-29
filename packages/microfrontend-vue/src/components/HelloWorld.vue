@@ -95,10 +95,11 @@
           id="inputVue"
           class="form-control"
           aria-describedby="hintVue"
+          @keyup="value = $event.target.value"
         />
       </div>
       <div class="col-auto">
-        <span id="hintVue" class="form-text"> Vue </span>
+        <span id="hintVue" class="form-text"> {{ value }} </span>
       </div>
     </div>
   </div>
@@ -106,10 +107,11 @@
 
 <script>
 export default {
-  name: "HelloWorld",
-  props: {
-    msg: String,
-  },
+  data() {
+    return {
+      value: "Vue"
+    }
+  }
 };
 </script>
 
