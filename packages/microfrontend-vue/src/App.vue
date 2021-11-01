@@ -10,6 +10,14 @@ export default {
   components: {
     HelloWorld,
   },
+  watch: {
+    title: {
+      immediate: true,
+      handler() {
+        document.title = 'Vue';
+      }
+    }
+  }
 };
 </script>
 
