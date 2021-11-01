@@ -9,7 +9,7 @@ import reactSvg from "./assets/react.svg";
 import vueSvg from "./assets/vue.svg";
 
 function App() {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState('React');
 
   return (
     <div className="container">

@@ -17,7 +17,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "lerna": "source .env && PORT=3005 react-scripts start",
+    "microfrontend": "source .env && PORT=3005 react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

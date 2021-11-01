@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "lerna": "ng serve --port 3001 --watch --configuration development",
+    "microfrontend": "ng serve --port 3001 --watch --configuration development",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

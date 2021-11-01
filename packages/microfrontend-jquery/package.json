@@ -12,7 +12,7 @@
     "jquery": "^3.6.0"
   },
   "scripts": {
-    "lerna": "http-server -p 3002",
+    "microfrontend": "http-server -p 3002",
     "start": "http-server"
   }
 }
